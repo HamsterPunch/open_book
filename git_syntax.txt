@@ -50,7 +50,5 @@ git push --set-upstream [alias for remote repository address] [branch name]
 git clone <remote repository address> [<new directory name>]
 remote repository를 새로운 디렉토리로 clone 한다.
 
-git pull
+git pull <alias for remote repository address> <branch name>
 remote repository를 local repository로 pull 한다.
-
-*백업 노트북에서 확인함*
