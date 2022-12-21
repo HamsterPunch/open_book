@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .basic {
+                width: 160px;
+                height: 160px;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="basic" style="background-color: bisque;">static</div>
+        <div class="basic" style="position: fixed; top: 16px; left: 96px; background-color: olivedrab;">
+            fixed
+        </div>
+        <br>
+        <div class="basic" style="background-color: bisque;">static</div>
+        <div class="basic" style="position: fixed; z-index: -10; top: 200px; left: 96px; background-color: olivedrab; direction: rtl;">
+            fixed<br>
+            z-index: -10
+        </div>
+    </body>
+</html>

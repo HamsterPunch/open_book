@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .basic {
+                width: 540px;
+                height: 160px;
+                background-color: bisque;
+            }
+            .basic2 {
+                width: 480px;
+                height: 112px;
+                background-color: olivedrab;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="basic">
+            <div class="basic2">margin-top이 설정되지 않은 경우</div>
+        </div>
+        <br>
+        <div class="basic" style="overflow: auto;">
+            <div class="basic2" style="margin-top: 32px;">
+                margin-top이 32px인 경우<br>
+                nested div에 padding-top을 사용하면 알 수 없는 이유로<br>
+                nested div가 아닌 parent div에 padding-top이 적용됨<br>
+                원하는 효과를 얻으려면 parent div에 overflow: auto를 설정해야 함
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .basic {
+                width: 240px;
+                height: 240px;
+                border: 1px solid black;
+            }
+            .basic2 {
+                width: 160px;
+                height: 160px;
+                border: 1px dashed black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="basic" style="position: static;">
+            position: static
+        </div>
+        <br>
+
+        <div class="basic" style="position: relative; left: 80px;">
+            position: relative<br>
+            left: 80px
+        </div>
+        <br>
+
+        <div class="basic" style="position: fixed; top: 0px; right: 0px;">
+            position: fixed<br>
+            top: 0px<br>
+            right: 0px
+        </div>
+
+        <div class="basic" style="position: relative;">
+            position: relative
+            <div class="basic2" style="position: absolute; right: 0px; bottom: 0px;">
+                position: absoulte<br>
+                right: 0px<br>
+                bottom: 0px
+            </div>
+            <div class="basic2" style="position: absolute;">
+                position: absolute
+            </div>
+        </div>
+
+        <div class="basic2" style="position: absolute; right: 0px; bottom: 0px;">
+            position: absolute<br>
+            right: 0px<br>
+            bottom: 0px
+        </div>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .basic {
+                border: 1px solid black;
+                background-color: bisque;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>block</h2>
+        <div class="basic">div(block)은 너비를 모두 차지한다.</div>
+        <br>
+        <div class="basic" style="width: 640px; height: 48px;">
+            div(block)은 새로운 라인에서 시작하고, 너비와 높이를 임의로 조절할 수 있다.
+        </div>
+        <br>
+
+        <h2>inline</h2>
+        <div class="basic" style="display: inline;">div(inline)은 콘텐츠의 길이만큼만 너비를 차지한다.</div>
+        <div class="basic" style="display: inline; width: 480px; height: 48px;">
+            div(inline)은 새로운 라인에서 시작하지 않고, 너비와 높이를 임의로 조절할 수 없다.
+        </div>
+        <br>
+        <br>
+
+        <h2>inline-block</h2>
+        <div class="basic" style="display: inline-block;">div(inline-block)은 기본적으로 콘텐츠의 길이만큼만 너비를 차지한다.</div>
+        <div class="basic" style="display: inline-block; width: 800px; height: 48px;">
+            div(inline-block)은 새로운 라인에서 시작하지 않고, 너비와 높이를 임의로 조절할 수 있다.
+        </div>
+    </body>
+</html>

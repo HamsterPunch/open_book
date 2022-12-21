@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .basic {
+                width: 640px;
+                height: 400px;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="basic" style="margin-bottom: 16px;">
+            <img src="../../resource/maid.jpeg" style="float: left; width: 400px; margin-bottom: 16px;">
+            no overflow-y인 div
+        </div>
+
+        <div class="basic" style="overflow-y: visible; clear: left;">
+            <img src="../../resource/maid.jpeg" style="float: left; width: 400px; margin-bottom: 16px;">
+            overflow-y: visible인 div
+        </div>
+
+        <div class="basic" style="overflow-y: hidden; clear: left; margin-bottom: 16px;">
+            <img src="../../resource/maid.jpeg" style="float: left; width: 400px;">
+            overflow-y: hidden인 div
+        </div>
+
+        <div class="basic" style="overflow-y: scroll; clear: left; margin-bottom: 16px;">
+            <img src="../../resource/maid.jpeg" style="float: left; width: 400px;">
+            overflow-y: scroll div
+        </div>
+
+        <div class="basic" style="overflow-y: auto; clear: left;">
+            <img src="../../resource/maid.jpeg" style="float: left; width: 400px;">
+            overflow-y: auto인 div
+        </div>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .basic {
+                width: 160px;
+                height: 80px;
+                border: 1px solid black;
+            }
+            .basic2 {
+                width: 240px;
+                height: 160px;
+                border: 1px solid black;
+            }
+            .basic3 {
+                width: 100%;
+                height: 240px;
+                border: 1px solid black;;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="basic" style="float: left; background-color: olivedrab;">float: left인 div</div>
+        <div class="basic2" style="background-color: bisque;">float 설정이 없는 div</div>
+        <br>
+
+        <div class="basic" style="float: left; background-color: olivedrab;">float: left인 div</div>
+        <div class="basic2"  style="float: left; background-color: bisque;">float: left인 div</div>
+        <br style="clear: left;">
+        <br>
+
+        <div class="basic" style="float: left; background-color: olivedrab;">float: left인 div</div>
+        <div class="basic2" style="clear: left; background-color: bisque;">clear: left인 div</div>
+        <br>
+
+        <p style="border: 1px solid black;">
+            <img src="../../resource/maid.jpeg" style="width: 112px;">float 설정이 없는 img
+        </p>
+
+        <p style="border: 1px solid black;">
+            <img src="../../resource/maid.jpeg" style="float: left; width: 112px;">float: left인 img
+        </p>
+    </body>
+</html>
